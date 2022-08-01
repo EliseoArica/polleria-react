@@ -1,0 +1,28 @@
+.cover__container {
+    width: 100%;
+    height: 70vh;
+    box-shadow: inset 0 0 0 1000rem rgba(0, 0, 0, 0.5);
+    object-fit: contain;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cover__video {
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
+
+.cover__h1 {
+    font-size: 7rem;
+    font-weight: 600;
+}
+
+.cover__p {
+    font-size: 3.2rem;
+}
